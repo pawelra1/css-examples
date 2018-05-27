@@ -1,0 +1,87 @@
+/*Selektor*/
+p {
+    background-color: darkorange;
+}
+
+/*Selektor ID*/
+#container {
+    background-color: forestgreen;
+}
+
+/*Selektor klasy*/
+.highlight {
+    background-color: black;
+}
+
+section > h2 {
+    background-color: brown;
+}
+
+section h2 {
+    background-color: chartreuse;
+}
+
+* {
+  color: darkorange;  
+}
+
+p.content {
+    color: cornflowerblue;
+}
+
+/*==============*/
+
+h1 {
+    color: pink !important;
+}
+    
+.main-header {
+    color: black;
+}
+
+#main-header {
+    color: green;
+}
+
+/*Pozycje*/
+.block {
+    background-color: green;
+    height: 500px;
+    position: relative;
+    top: 
+}
+
+.red {
+    background-color: red;
+    color: white;
+    margin: 0px;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+/*Pozycja relatywna*/
+.red {
+    position: relative;
+    left: 30px;
+    top: 30px;
+    
+}
+
+/*Pozycja absolutna*/
+
+.red {
+    position: absolute;
+    left: 30px;
+    top: 30px
+}
+
+/*Pozycja ustalona*/
+
+.red {
+    position: absolute;
+    left: 30px;
+    top: 30px
+}
