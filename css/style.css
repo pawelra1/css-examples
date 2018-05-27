@@ -54,7 +54,7 @@ h1 {
 .red {
     background-color: red;
     color: white;
-    margin: 0px;
+    margin: 0;
 }
 
 .blue {
@@ -63,25 +63,23 @@ h1 {
 }
 
 /*Pozycja relatywna*/
-.red {
+/*.red {
     position: relative;
     left: 30px;
-    top: 30px;
-    
+    top: 60px;
 }
-
+*/
+    
 /*Pozycja absolutna*/
 
-.red {
+/*.red {
     position: absolute;
     left: 30px;
     top: 30px
-}
+}*/
 
 /*Pozycja ustalona*/
-
 .red {
-    position: absolute;
-    left: 30px;
-    top: 30px
+    position: fixed;
+    bottom: 0;
 }
